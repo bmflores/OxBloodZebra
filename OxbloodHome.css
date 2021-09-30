@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*
+Author: Bryan Flores
+Date: 9/29/2021
+*/
+
+html {
+    background-color: white;
+    background-image: url(redlogotext.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+body > h2 {
+    margin-left: 30;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+header {
+    margin-left: 30;
+    margin-top: 50;
+    padding-left: 2em;
+}
+
+nav {
+    margin-left: 45;
+    margin-bottom: 750;
+    list-style:url(bullet.jpg);
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+nav.vertical {
+    top: 80px;
+    left: 0;
+    max-width: 15%;
+}
+
+nav.vertical a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav.vertical a:visited {
+    color: black;
+}
+
+nav.vertical a:hover {
+    color: rgb(83, 25, 28);
+    text-decoration: underline;
+}
+
+nav > ul {
+    line-height: 3em;
+}
+
+footer > a {
+    margin-left: 45;
+}
