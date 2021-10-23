@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/*
+Author: Bryan Flores
+Date: 10/19/2021
+*/
+html{
+    background-color: rgb(241, 241, 237);
+}
+
+div #logo {
+    margin-top: 2em;
+    margin-left: 4em;
+}
+
+#background-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header-wrapper {
+    width: 100%;
+    margin-top: 2em;
+    padding-left: 46%;
+    font-size: 3.5em;
+    font-weight: 1000;
+    color: rgb(8, 2, 1);
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+#nav-wrapper {
+    width: 5%;
+    height: 100%;
+    max-height: 25%;
+    float: left;
+    clear: left;
+}
+
+nav {
+    margin-left: 45px;
+    list-style-type:none;
+    font-size: 1.5em;
+    list-style: url(OxbloodImages/bullet.jpg);
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+nav.vertical {
+    top: 80px;
+    left: 0;
+    max-width: 15%;
+    max-height: 20%;
+}
+
+nav.vertical a {
+    text-decoration: none;
+    color: rgb(10, 73, 114);
+}
+
+nav.vertical a:hover {
+    color: rgb(83, 25, 28);
+    text-decoration: underline;
+}
+
+nav > ul {
+    line-height: 3em;
+}
+
+#products-images {
+    background-color: rgb(194, 193, 159);
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    border: rgb(8, 2, 1);
+    border-style: double;
+    margin-top: 13em;
+    margin-right: 10em;
+    margin-left: 10em;
+    margin-bottom: 5em;
+    padding: 3em;
+}
+
+#products-images > div > h3 {
+    font-size: 2.2em;
+    font-family: 'Roboto Slab', sans-serif;
+    color: rgb(7, 32, 49);
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+
+.captions {
+    font-size: 1.2em;
+    font-family: 'Roboto Slab', sans-serif;
+    color: rgb(7, 32, 49);
+}
+
+#men-products {
+    text-align: center;
+    margin: 3.2em auto;
+}
+
+#men-products a {
+    margin:0px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+}
+
+#women-products {
+    text-align: center;
+    margin: 3.2em auto;
+}
+
+#women-products a {
+    margin:0px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+}
+
+.products-men {
+    margin-top: 3em;
+    height: 40em;
+    width: 30em;    
+    object-fit: cover;
+}
+
+.products-women {
+    margin-top: 3em;
+    height: 40em;
+    width: 30em;    
+    object-fit: cover;
+}
+
+#footer-wrapper {
+    display: block;
+    width: 100%;
+}
+
+#ig-logo {
+    background-attachment: fixed;
+    float: left;
+    padding-top: 5em;
+    padding-left: 100px;
+    padding-bottom: 80px;
+}
+
+#bottom-logo {
+    float: right;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
